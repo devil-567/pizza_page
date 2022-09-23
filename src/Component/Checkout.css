@@ -1,0 +1,97 @@
+.checkout_wrap {
+    max-width: 60rem;
+    margin:0rem 2rem;
+    margin-top: 3rem;
+}
+.checkout__form {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.checkout__column {
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+}
+.checkout__column label {
+    display: block;
+}
+.MuiInput-root  {
+    width: 100%;
+}
+.checkout__column input {
+    width: 100%;
+}
+.checkout__column select {
+    width: 100%;
+    border-left: 0;
+    border-right:0;
+    border-top: 0;
+    padding:1rem 0rem;
+}
+.checkout__column button {
+    background-color: #f0c14b;
+    border-radius: .5rem;
+    width: 100%;
+    border:0;
+    outline: 0;
+    cursor: pointer;
+    padding: 1rem 0rem;
+}
+.order__confirm {
+    width: 60rem;
+    margin:2rem auto;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 2rem;
+}
+.order__confirm h3 {
+    background:#000;
+    color:#fff;
+    margin:2rem 0rem;
+    padding:1rem 0rem
+}
+.order__confirm button {
+    background-color: #f0c14b;
+    border-radius: .5rem;
+   
+    border:0;
+    outline: 0;
+    cursor: pointer;
+    padding: 1rem 3rem;
+    margin-top:2rem
+}
+
+
+
+/* thanku */
+.order-confirm{
+    width: 100%;
+    margin: 2rem auto;
+    align-items: center;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 2rem;
+}
+.order-confirm h2{
+    background:#198754;
+   color: #ffffff; 
+   margin: 2rem 0rem;
+   padding: 1rem 0rem;
+}
+.order-confirm h4{
+    font-weight: bold;
+}
+.order-confirm button{
+    border: none;
+    background-color: #198754;
+    color: #ffffff;
+    width: 30%;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+}
+
+.order-confirm button:hover{
+    background-color: #ffffff;
+    color: #198754;
+    border: .1rem solid;
+}

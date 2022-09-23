@@ -1,0 +1,308 @@
+html{
+  font-size: 10px;
+}
+.wraper{
+  text-align: center;
+}
+.resturant-name h1{
+  color: #198754;
+  font-size: 8rem;
+}
+
+
+
+.resturant-name {
+    text-align: center;
+    font-family:  "Abril Fatface",serif;
+    
+    
+    
+}
+.resturant-name p{
+font-size: 2rem;
+}
+.resturant-name h1{
+font-size: 5.6rem;
+font-weight: bold;
+margin-top: 13rem;
+}
+.slider-images{
+    padding: 5rem;
+    
+   
+  }
+
+
+  /* menu */
+.menu_wrap{
+
+  
+
+  padding: 5rem;
+  display: grid;
+  place-items: center;
+  grid-template-columns: auto auto auto auto auto  ;
+  margin-top: 1rem;
+    
+    
+   }
+  
+   
+  
+  
+
+
+
+  
+    
+   .menu_wrap::-webkit-scrollbar{
+    display: none;
+  }
+   .menu_wrap .Product{
+    overflow-wrap:initial;
+    background-color: #ffffff;
+   padding-bottom: 2rem;
+   margin-right: 2rem;
+    width:95%;
+    text-align: center;
+    box-shadow:0rem 0rem 1rem rgb(0 0 0 / 37%) ;
+    margin-bottom: 3rem;
+    transition: transform 450ms;
+    
+    
+  
+   
+    
+    
+   
+   }
+   .Product:hover{
+    
+    transform: scale(1.10);
+  }
+  
+   .menu_wrap .Product img{
+    
+    
+  
+     width: 100%;
+     height: 20rem ;
+     object-fit: cover;
+     object-position: top;
+     
+   }
+   .menu_wrap .Product p{
+    color: #80808080;
+    margin: 0rem;
+    margin-bottom: 1rem;
+    
+  
+   }
+   .menu_wrap .Product button{
+    background-color: #008000;
+   border: none;
+    cursor: pointer;
+    padding:1rem 2rem;
+    border-radius: 2rem;
+    width: 80%;
+    color: #ffffff;
+    font-weight: bold;
+   }
+   .Product button:hover{
+    border:.1rem solid #198754;
+  
+        background-color:#ffffff;
+        color: #198754;
+   }
+   .tittle-menu-item h2{
+    margin-left: 1rem;
+   }
+  
+   .button-order button:hover{
+    background-color: #ffffff;
+    border: .1rem solid #198754;
+    color: #198754;
+   }
+   .button-order button{
+
+    border-radius:1rem;
+    padding: 1rem 2rem 1rem 2rem;
+    background-color: #198754;
+    color: #ffffff;
+    width:fit-content;
+    border: none;
+    font-weight: bold;
+    font-size: 2rem;
+   }
+   .button-order{
+    padding: 2rem;
+   }
+  
+   .bestdeals h1{
+    background-color: #198754;
+    padding: 1rem;
+    color: #ffffff;
+    border-radius: 5px 
+   }
+   .item-name{
+    color: #198754;
+     padding: 1rem 
+   }
+   .item-des{
+    color: darkgray; 
+    margin-top:-2rem;
+   }
+
+  .Product p{
+   color: #198754;
+    padding: 1rem; 
+  }
+  
+    .Product span{
+      color: darkgray;
+       margin-top: -2rem;
+
+
+    }
+
+
+    @media (max-width:550px) {
+      .menu_wrap{
+  
+    
+  
+        padding: .5rem;
+        padding-left: 2rem;
+        display: grid;
+        place-items: center;
+        grid-template-columns: auto auto   ;
+        margin-top: .1rem;
+        
+        
+       }
+       .slider-images{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        
+        
+       
+      }
+       .bestdeals{
+        padding: 0 5rem 3rem 5rem;
+        /* margin-top: -13rem; */
+       }
+      }
+    @media (min-width:550px)  {
+      .menu_wrap{
+
+  
+
+        padding: .5rem;
+        padding-left: 2rem;
+        display: grid;
+        place-items: center;
+        grid-template-columns: auto auto  auto ;
+        margin-top: .1rem;
+        
+        
+       }
+       .bestdeals{
+        padding: 0 5rem 3rem 5rem;
+       }
+       
+
+    }
+
+    @media (min-width:265px)and (max-width:300px) {
+      .bestdeals{
+        padding: 0 5rem 3rem 5rem;
+        /* margin-top: -21rem; */
+        
+        
+       }
+       
+    }
+    @media (min-width:50px)and (max-width:264px) {
+      .menu_wrap{
+
+  
+
+        padding: .5rem;
+        padding-left: 2rem;
+        display: grid;
+        place-items: center;
+        grid-template-columns: auto  ;
+        margin-top: .1rem;
+        
+        
+       }
+       .button-order button{
+
+        border-radius:.3rem;
+        padding: .5rem .7rem .5rem .7rem;
+        background-color: #198754;
+        color: #ffffff;
+        width:fit-content;
+        border: none;
+        font-weight: bold;
+        font-size: 1.5rem;
+       }
+       .resturant-name h1{
+        font-size: 2rem;
+       }
+       .bestdeals{
+        padding: 0 5rem 3rem 5rem;
+        /* margin-top: -31rem; */
+        
+        
+       }
+       .bestdeals h1{
+
+        font-size: 1rem;
+       }
+    }
+
+
+
+
+
+
+
+
+    
+    
+
+    @media (min-width:998px) {
+      .bestdeals{
+        padding: 0 5rem 3rem 5rem;
+        
+        
+       }
+       .slider-images{
+        padding: 1rem;
+        margin-bottom: 3rem;
+        
+       
+      }
+       .menu_wrap{
+  
+    
+  
+        padding: .5rem;
+        padding-left: 2rem;
+        display: grid;
+        place-items: center;
+        grid-template-columns: auto auto  auto auto auto ;
+        margin-top: .1rem;
+        
+        
+       }
+
+    }
+
+
+
+    
+
+
+     

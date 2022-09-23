@@ -1,0 +1,42 @@
+html{
+  font-size: 10px;
+}
+
+
+
+  .about-page-1 h1{
+    margin-left: 10px;
+  font-family:  "Abril Fatface",serif;
+
+  }
+  
+  .product-restro-image img{
+    margin: 1.2rem;
+    width: 80%;
+    border-radius: 1rem;
+    height: 300px;
+  }
+
+  .about-page{
+    margin-top:10rem;
+  }
+  .about-titelname{
+    text-align:left;
+    margin-bottom:3rem;
+    padding: 3rem;
+  }
+  /* .about-titelname h2{
+    margin-top: 5rem;
+  } */
+  .about-titelname p{
+    color: #000000;
+    font-size: 1.5rem;
+  }
+  .product-restro-image{
+    text-align: center;
+  }
+
+  
+
+
+  

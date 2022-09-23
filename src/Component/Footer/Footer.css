@@ -1,0 +1,57 @@
+html{
+  font-size: 10px;
+}
+
+.button{
+  
+    border-radius: 0.5rem;
+    background-color: #4e9473;
+    color: #ffffff;
+    border: none;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    outline-color: lightgrey;
+  
+  }
+  .button:hover{
+    background-color: #ffffff;
+    color: #198754;
+  }
+
+  .footer-wrap{
+    position: inherit;
+    background-color: #198754;
+    bottom: 0px;
+
+  }
+.footer-wrap section{
+  margin-top: 3rem;
+}
+.footer-wrap section span{
+  text-decoration: none; 
+  font-size: 1.5rem;
+}
+
+.footer-wrap p{
+  font-size: 1.5rem;
+    padding: 1.5rem;
+    margin-bottom: 0rem;
+}
+.fontawsome{
+  height: 2rem;
+  cursor: pointer;
+  margin: 0 .3rem;
+}
+
+.section-style section{
+  font-size: 1.5rem;
+}
+.text-center-p-3 span{
+  font-weight: bold;
+  font-size: 2rem;
+}
+.text-uppercase{
+  font-size: 2rem;
+  font-family:  "Abril Fatface",serif;
+
+}

@@ -1,0 +1,83 @@
+ html{
+  font-size: 10px;
+}
+ 
+
+.nev-back{
+  background-color: #198754;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.logo-text{
+  padding: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #ffffff;
+  font-family:  "Abril Fatface",serif;
+
+}
+
+
+           
+.cart{
+  right: 0;
+  align-items: center;
+  display: flex;
+}
+
+.hoome{
+  display: flex;
+}
+.hoome1{
+  font-weight: bold;
+  font-size:15px ;
+ margin-left: 10px;
+ font-family:  "Abril Fatface",serif;
+
+ color: #ffffff;
+}
+@media (max-width:250px) {
+  .logo-text{
+    padding: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family:  "Abril Fatface",serif;
+  
+  }
+  .hoome1{
+    font-weight: bold;
+    font-size:8px ;
+   margin-left: 4px;
+   font-family:  "Abril Fatface",serif;
+  
+   color: #ffffff;
+  }
+}
+
+
+.header__optionBasket {
+  display: flex;
+  color:#fff;
+}
+
+.header__optionBasket a {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.header__optionBasket a span {
+  margin-top: -20px;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background-color: #fff;
+  color: #198754;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
+}
